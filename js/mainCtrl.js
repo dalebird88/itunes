@@ -38,7 +38,7 @@ arr.push(
         Artist: response.data.results[i].artistName,
         Collection:  response.data.results[i].collectionName,
         CollectionPrice:  response.data.results[i].collectionPrice,
-        Play: response.data.results[i].trackViewUrl,
+        Play: response.data.results[i].previewUrl,
         Type:  response.data.results[i].trackName
     }
   );
